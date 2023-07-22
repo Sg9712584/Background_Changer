@@ -1,0 +1,22 @@
+body{     
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    margin-top: 300px;
+    padding:20px;
+    font-size:20px;
+    color:black;
+    border-color:white;
+    background-image: linear-gradient(#808080, #ffffff);
+    border-radius:25px;
+    box-shadow:burlywood 2.5px 2.5px ,blueviolet -2.5px -2.5px;
+
+}
+
+#btn:hover{
+    background-color:cadetblue;
+    color:aliceblue;
+    cursor: pointer;
+}
